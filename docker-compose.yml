@@ -13,7 +13,8 @@ drupal:
     volumes_from:
     - drupalData
     environment:
-      DRUPAL_MAKE_DIR: 
-#      DRUPAL_INSTALL_PROFILE: default
+      DRUPAL_MAKE_DIR: drupal-make
+      DRUPAL_MAKE_REPO: https://github.com/gasparakos/biotika.git
+      DRUPAL_MAKE_BRANCH: master
 
 
