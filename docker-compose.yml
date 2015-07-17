@@ -1,0 +1,19 @@
+drupalData:
+    image: boran/drupal
+    volumes:
+    - /media/docker-data/biotika/drupal:/var/www/
+    command: true
+
+drupal:
+    image: boran/drupal
+    ports:
+    - 8005:80
+#    volumes:
+#    - /media/docker-data/drupal6:/drupal6
+    volumes_from:
+    - drupalData
+    environment:
+      DRUPAL_MAKE_DIR: 
+#      DRUPAL_INSTALL_PROFILE: default
+
+
