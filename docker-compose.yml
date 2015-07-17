@@ -1,8 +1,8 @@
-drupalData:
-    image: boran/drupal
-    volumes:
-    - /media/docker-data/biotika/drupal:/var/www/
-    command: true
+#drupalData:
+#    image: boran/drupal
+#    volumes:
+#    - /media/docker-data/biotika/drupal:/var/www/
+#    command: true
 
 drupal:
     image: boran/drupal
@@ -10,8 +10,8 @@ drupal:
     - 8005:80
 #    volumes:
 #    - /media/docker-data/drupal6:/drupal6
-    volumes_from:
-    - drupalData
+#    volumes_from:
+#    - drupalData
     environment:
       DRUPAL_MAKE_DIR: drupal-make
       DRUPAL_MAKE_REPO: https://github.com/gasparakos/biotika.git
