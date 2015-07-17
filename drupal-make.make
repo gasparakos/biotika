@@ -5,5 +5,5 @@ projects:
   - drupal
 
 includes:
-  - "/drush-make/projects.make"
-  - "/drush-make/translations.make"
+  - "/drush/projects.make"
+  - "/drush/translations.make"
