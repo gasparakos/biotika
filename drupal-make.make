@@ -3,5 +3,7 @@ api: 2
 
 projects:
   - drupal
-  - views
 
+includes:
+  - "/drush-make/projects.make"
+  - "/drush-make/translations.make"
