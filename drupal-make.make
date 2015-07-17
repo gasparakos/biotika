@@ -3,3 +3,5 @@ api: 2
 
 projects:
   - drupal
+  - views
+
