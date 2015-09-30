@@ -7,3 +7,4 @@ projects:
 includes:
   - "/drush/projects.make"
   - "/drush/translations.make"
+  - "/drush/cartaro.make"
